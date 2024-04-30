@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component LANGUAGE_LEVEL="JDK_1_7" inheritJdk="true">
+<component LANGUAGE_LEVEL="JDK_17" inheritJdk="true">
 	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
 	<contentEntry url="file://$MODULE_DIR$">
 		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
+	<lib name="src/main/resources/sigar-1.6.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/main/resources/sigar-1.6.4.jar!/"/>
+	</lib>
 	<lib name="Maven: org.hyperic:sigar:1.6.4" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/main/resources/sigar-1.6.4.jar!/"/>
 	</lib>
